@@ -1,5 +1,5 @@
 body {
-	color: #fff;
+	color: #757575;
 	font-family: "futura-pt",sans-serif;
 	font-size: 95%;
 	margin: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 a, a:active, a:visited {
-	color: #fff;
+	color: #757575;
 	text-decoration: none;
 	-o-transition:color .2s ease-out, background 1s ease-in;
   	-ms-transition:color .2s ease-out, background 1s ease-in;
@@ -21,7 +21,7 @@ a, a:active, a:visited {
   	-webkit-transition:color .2s ease-out, background 1s ease-in;
   	transition:color .2s ease-out, background 1s ease-in;
 }
-a:hover {color: rgba(255,255,255, .7);}
+a:hover {color: rgba(120, 144, 156, .7);}
 
 h1, h2 {padding: 0;}
 h2 {display: none;}
