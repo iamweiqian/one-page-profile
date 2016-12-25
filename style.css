@@ -54,23 +54,48 @@ ul li {
 }
 
 @media screen
-and (min-width : 1700px) {
+and (min-width: 1700px) {
 	p {font-size: 2.9em; padding-bottom: .4em;}
 	section {width: 56em; height: 39em;}
 	ul li {font-size: 1.8em; padding-left: 0; padding-right: .8em;}
 }
 
 @media screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-	body {text-align: left; padding: 0;}
-	p {font-size: 1.5em; padding-bottom: .2em; font-weight: 400;}
-	section {margin: auto; width: 84%; height: 24em; padding: 0 8%;}
-	ul li {font-size: 1.26em; padding-left: 0; padding-right: .8em;}
-	h1 {display: none;}
+and (min-device-width: 768px)
+and (max-device-width: 960px) {
+	p {font-size: 2.9em; padding-bottom: .4em;}
+	section {margin: auto; width: 84%; height: 75%; padding: 0 8%; overflow-y: auto;}
+	ul li {font-size: 1.8em; padding-left: 0; padding-right: .8em;}
 }
 
 @media screen
-and (device-width : 360px) {
-	section {margin: auto; width: 88%; height: 24em; padding: 0 6%;}
+and (min-device-width: 481px)
+and (max-device-width: 767px) {
+	p {font-size: 2.9em; padding-bottom: .4em;}
+	section {margin: auto; width: 84%; height: 100%; padding: 0 8%; overflow-y: auto;}
+	ul li {font-size: 1.8em; padding-left: 0; padding-right: .8em;}
+}
+
+@media screen
+and (min-device-width: 361px)
+and (max-device-width: 480px) {
+	body {text-align: left; padding: 0;}
+	p {font-size: 1.5em; padding-bottom: .2em; font-weight: 400;}
+	section {margin: auto; width: 84%; height: 80%; padding: 0 8%; overflow-y: auto;}
+	ul li {font-size: 1.26em; display: block;}
+}
+
+@media screen
+and (min-device-width: 321px)
+and (max-device-width: 360px) {
+	body {text-align: left; padding: 0;}
+	p {font-size: 1.5em; padding-bottom: .2em; font-weight: 400;}
+	section {margin: auto; width: 84%; height: 95%; padding: 0 8%; overflow-y: auto;}
+	ul li {font-size: 1.26em; display: block;}
+}
+
+@media screen
+and (max-device-width : 320px) {
+	section {margin: auto; width: 88%; height: 100%; padding: 0 6%; overflow-y: auto;}
+	ul li {display: block;}
 }
