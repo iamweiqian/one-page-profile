@@ -53,6 +53,17 @@ ul li {
 	letter-spacing: .1;
 }
 
+iframe {
+	width: 40%;
+	height: 100%;
+	float: right;
+	border-width: 0.01em;
+	border-color: #FAFAFA;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+
 @media screen
 and (min-width: 1700px) {
 	p {font-size: 2.9em; padding-bottom: .4em;}
