@@ -1,12 +1,13 @@
 # Personal Profile
 :bowtie: **My Personal Profile**
 
+This website is created based on the minimalist designer [Sean Thompson](http://cyanhex.co).
+
 ## Development Tools
 
 1. [Atom by GitHub](https://atom.io)
-2. [MySQL](https://www.mysql.com)
-3. [Digital Ocean](https://www.digitalocean.com)
-4. [FileZilla](https://filezilla-project.org)
+2. [Digital Ocean](https://www.digitalocean.com)
+3. [FileZilla](https://filezilla-project.org)
 
 ## Creator
 
