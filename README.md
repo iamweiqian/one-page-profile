@@ -6,8 +6,7 @@ This website is created based on the minimalist designer [Sean Thompson](http://
 ## Development Tools
 
 1. [Atom by GitHub](https://atom.io)
-2. [Digital Ocean](https://www.digitalocean.com)
-3. [FileZilla](https://filezilla-project.org)
+2. [GitHub Pages](https://pages.github.com)
 
 ## Creator
 
